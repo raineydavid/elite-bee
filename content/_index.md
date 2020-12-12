@@ -6,7 +6,7 @@ sections:
     title: We are Commsunity
     component: hero_block.html
     content: "# The community engagement platform."
-    image: images/hero.png
+    image: /images/4.jpg
     actions:
       - label: Learn More
         url: /features
