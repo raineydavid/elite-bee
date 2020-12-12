@@ -1,29 +1,29 @@
-title: Stackbit Azimuth Theme
+title: Commsunity - The community engagement platform.
 baseURL: /
 params:
-  palette: blue
+  palette: purple
   header:
-    title: Azimuth
-    logo_img: images/logo.png
+    title: Commsunity
+    logo_img: /images/commsunity-nobg.png
     has_nav: true
     menu:
       actions:
         - label: Sign Up
           url: /signup
   footer:
-    logo_img: images/logo_alt.png
-    tagline: SaaS theme by Stackbit
-    has_nav: true
-    nav_title: Company
-    has_social: true
-    social_title: Community
-    has_subscribe: true
     subscribe_title: Subscribe
     subscribe_content: Stay up to date with our latest developments.
-    content: '&copy; Stackbit. All rights reserved.'
+    has_subscribe: true
+    social_title: Community
+    tagline: Commsunity
+    logo_img: /images/commsunity-nobg.png
+    has_social: true
+    content: "&copy; Commsunity. All rights reserved."
     links:
-      - text: Made with Stackbit
-        url: 'https://www.stackbit.com'
+      - text: Made by Women Can Code
+        url: https://www.womencancode.com
         new_window: true
+    nav_title: Company
+    has_nav: true
 disableKinds:
   - RSS
