@@ -5,7 +5,10 @@ sections:
     section_id: hero
     title: We are Commsunity
     component: hero_block.html
-    content: "# The community engagement platform."
+    content: |-
+      # The community engagement platform.
+
+      Uniting communities around the world  and changing their lives forever.
     image: /images/4.jpg
     actions:
       - label: Learn More
