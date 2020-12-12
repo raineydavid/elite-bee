@@ -5,14 +5,19 @@ sections:
     section_id: hero
     title: We are Commsunity
     component: hero_block.html
-    content: |-
-      # The community engagement platform.
-
-      Uniting communities around the world  and changing their lives forever.
-    image: /images/4.jpg
+    content: "# The community engagement platform."
+    image: images/hero.png
     actions:
       - label: Learn More
         url: /features
+  - type: ctablock
+    section_id: call-to-action
+    title: The journey to an engaged community starts right now
+    component: cta_block.html
+    subtitle: ""
+    actions:
+      - label: Get Started
+        url: /signup
   - type: featuresblock
     section_id: features
     title: Features
@@ -66,26 +71,11 @@ sections:
         avatar: images/review3.jpg
         content: Integer consectetur purus neque, ac porttitor enim convallis vitae.
           Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  - type: ctablock
-    section_id: call-to-action
-    title: This Is Call To Action Block!
-    component: cta_block.html
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - label: Get Started
-        url: /signup
   - type: postsblock
     section_id: recent-posts
     title: Latest Posts
     component: posts_block.html
     bg: gray
-  - type: ctablock
-    component: cta_block.html
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - label: Get Started
-        url: /signup
 menu:
   main:
     name: Home
